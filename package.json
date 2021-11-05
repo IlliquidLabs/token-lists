@@ -1,6 +1,5 @@
 {
   "name": "@thehoneypot/token-lists",
-  "author": "bmino",
   "description": "📚 The Token Lists specification",
   "version": "1.0.1",
   "license": "MIT",
@@ -22,8 +21,8 @@
     "build": "tsdx build",
     "postbuild": "cp src/tokenlist.schema.json dist/tokenlist.schema.json",
     "test": "tsdx test",
-    "lint": "tsdx lint src test",
-    "prepublishOnly": "yarn test && yarn build"
+    "lint": "tsdx lint src test"
+
   },
   "peerDependencies": {},
   "husky": {
